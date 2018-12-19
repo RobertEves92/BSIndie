@@ -6,7 +6,7 @@
     <ProjectGuid>{ADA5A69A-4661-4EE2-A148-70069EC790A3}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>HertfordshireMercury.Droid</RootNamespace>
+    <RootNamespace>BSIndie.Droid</RootNamespace>
     <AssemblyName>BSIndie.Android</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
