@@ -116,27 +116,27 @@ namespace BSIndie.Models
 
                 articleText = doc.DocumentNode.InnerHtml;
 
-                articleText = Regexes.FormTag.Replace(articleText, "");
+                //articleText = Regexes.FormTag.Replace(articleText, "");
 
-                articleText = Regexes.Hyperlinks.Replace(articleText, "");
-                articleText = articleText.Replace("</a>", "");
-                articleText = Regexes.Gallery.Replace(articleText, "");
+                //articleText = Regexes.Hyperlinks.Replace(articleText, "");
+                //articleText = articleText.Replace("</a>", "");
+                //articleText = Regexes.Gallery.Replace(articleText, "");
 
                 articleText = Regexes.Paragraphs.Replace(articleText, "\r\n\r\n");
 
-                articleText = Regexes.Button.Replace(articleText, "");
-                articleText = Regexes.Headers.Replace(articleText, "");
-                articleText = articleText.Replace("poll loading", "");
+                //articleText = Regexes.Button.Replace(articleText, "");
+                //articleText = Regexes.Headers.Replace(articleText, "");
+                //articleText = articleText.Replace("poll loading", "");
 
-                articleText = Regexes.Images.Replace(articleText, "");
-                articleText = Regexes.Labels.Replace(articleText, "");
-                articleText = Regexes.Spans.Replace(articleText, "");
+                //articleText = Regexes.Images.Replace(articleText, "");
+                //articleText = Regexes.Labels.Replace(articleText, "");
+                //articleText = Regexes.Spans.Replace(articleText, "");
 
                 articleText = Regexes.Tags.Replace(articleText, "");
 
                 articleText = Unescape.UnescapeHtml(articleText);
 
-                articleText = Regexes.Video.Replace(articleText, "");
+                //articleText = Regexes.Video.Replace(articleText, "");
 
                 articleText = Regexes.Whitespace.Replace(articleText, "\r\n\r\n");
 
