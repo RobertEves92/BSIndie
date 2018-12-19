@@ -25,9 +25,9 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Hertfordshire Mercury" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="Stortford Independent" FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
-                                <Span Text="v0.2.2" ForegroundColor="{StaticResource LightTextColor}" />
+                                <Span Text="v1.0.0" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
