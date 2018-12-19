@@ -77,7 +77,7 @@ namespace BSIndie.Models
                 {
                     foreach (HtmlAttribute a in div.Attributes)
                     {
-                        if (a.Name == "class" && a.Value == "article-body")
+                        if (a.Name == "class" && a.Value == "pagestory")
                         {
                             articleBodyNode = div;
                             break;
