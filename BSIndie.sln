@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HertfordshireMercury.Android", "HertfordshireMercury\HertfordshireMercury.Android\HertfordshireMercury.Android.csproj", "{ADA5A69A-4661-4EE2-A148-70069EC790A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIndie.Android", "HertfordshireMercury\HertfordshireMercury.Android\BSIndie.Android.csproj", "{ADA5A69A-4661-4EE2-A148-70069EC790A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HertfordshireMercury.iOS", "HertfordshireMercury\HertfordshireMercury.iOS\HertfordshireMercury.iOS.csproj", "{FBAEEEB7-17FD-42F7-908B-24ABA017FDF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIndie.iOS", "HertfordshireMercury\HertfordshireMercury.iOS\BSIndie.iOS.csproj", "{FBAEEEB7-17FD-42F7-908B-24ABA017FDF9}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HertfordshireMercury", "HertfordshireMercury\HertfordshireMercury\HertfordshireMercury.shproj", "{112613D2-3068-4FC3-94E7-334DD6EE6452}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BSIndie", "HertfordshireMercury\HertfordshireMercury\BSIndie.shproj", "{112613D2-3068-4FC3-94E7-334DD6EE6452}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
