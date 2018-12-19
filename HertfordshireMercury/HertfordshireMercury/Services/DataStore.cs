@@ -51,11 +51,7 @@ namespace BSIndie.Services
 
         public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
         {
-#if DEBUG   //use static feed saved in gist for testing
-            string feedUrl = "https://gist.githubusercontent.com/RobertEves92/85e22fbe847fc4fb08e1aa28851e3bdd/raw/ba25f9d2a9ef44a17071f2507ca20726f3832f74/gistfile1.txt";
-#else       //use live feed from mercury for releases
-            string feedUrl = "https://www.BSIndie.co.uk/news/?service=rss";
-#endif
+            string feedUrl = "https://www.bishopsstortfordindependent.co.uk/_api/rss/bishops_stortford_news_feed.xml";
             string feedSrc = NetServices.GetWebpageFromUrl(feedUrl);
             feedSrc = Unescape.UnescapeHtml(feedSrc);
 
