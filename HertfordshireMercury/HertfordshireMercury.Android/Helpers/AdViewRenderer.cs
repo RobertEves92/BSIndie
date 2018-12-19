@@ -21,7 +21,7 @@ namespace BSIndie.Droid.Helpers
 {
     public class AdViewRenderer : ViewRenderer<Controls.AdControlView,AdView>
     {
-        string adUnitId = "ca-app-pub-4100821384102775/8375457622";
+        string adUnitId = "ca-app-pub-4100821384102775/4875074505";
         AdSize adSize = AdSize.SmartBanner;
         AdView adView;
 
