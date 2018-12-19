@@ -3,12 +3,12 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using HertfordshireMercury.Models;
-using HertfordshireMercury.ViewModels;
+using BSIndie.Models;
+using BSIndie.ViewModels;
 
 using Plugin.Share;
 
-namespace HertfordshireMercury.Views
+namespace BSIndie.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemDetailPage : ContentPage

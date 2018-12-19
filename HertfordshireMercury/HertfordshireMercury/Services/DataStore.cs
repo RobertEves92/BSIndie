@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using HertfordshireMercury.Models;
-using HertfordshireMercury.Services;
+using BSIndie.Models;
+using BSIndie.Services;
 
 using CodeHollow.FeedReader;
 
-[assembly: Xamarin.Forms.Dependency(typeof(HertfordshireMercury.Services.DataStore))]
-namespace HertfordshireMercury.Services
+[assembly: Xamarin.Forms.Dependency(typeof(BSIndie.Services.DataStore))]
+namespace BSIndie.Services
 {
     public class DataStore : IDataStore<Item>
     {
@@ -54,7 +54,7 @@ namespace HertfordshireMercury.Services
 #if DEBUG   //use static feed saved in gist for testing
             string feedUrl = "https://gist.githubusercontent.com/RobertEves92/85e22fbe847fc4fb08e1aa28851e3bdd/raw/ba25f9d2a9ef44a17071f2507ca20726f3832f74/gistfile1.txt";
 #else       //use live feed from mercury for releases
-            string feedUrl = "https://www.hertfordshiremercury.co.uk/news/?service=rss";
+            string feedUrl = "https://www.BSIndie.co.uk/news/?service=rss";
 #endif
             string feedSrc = NetServices.GetWebpageFromUrl(feedUrl);
             feedSrc = Unescape.UnescapeHtml(feedSrc);

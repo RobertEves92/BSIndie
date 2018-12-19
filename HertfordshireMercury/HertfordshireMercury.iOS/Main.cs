@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace HertfordshireMercury.iOS
+namespace BSIndie.iOS
 {
     public class Application
     {

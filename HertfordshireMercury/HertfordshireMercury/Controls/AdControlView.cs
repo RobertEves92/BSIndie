@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HertfordshireMercury.Controls
+namespace BSIndie.Controls
 {
     public class AdControlView:Xamarin.Forms.View
     {

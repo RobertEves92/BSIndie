@@ -12,12 +12,12 @@ using Android.Widget;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using HertfordshireMercury.Droid.Helpers;
+using BSIndie.Droid.Helpers;
 using Android.Gms.Ads;
-using HertfordshireMercury.Controls;
+using BSIndie.Controls;
 
-[assembly: ExportRenderer(typeof(HertfordshireMercury.Controls.AdControlView),typeof(AdViewRenderer))]
-namespace HertfordshireMercury.Droid.Helpers
+[assembly: ExportRenderer(typeof(BSIndie.Controls.AdControlView),typeof(AdViewRenderer))]
+namespace BSIndie.Droid.Helpers
 {
     public class AdViewRenderer : ViewRenderer<Controls.AdControlView,AdView>
     {

@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using HertfordshireMercury.Models;
-using HertfordshireMercury.Services;
+using BSIndie.Models;
+using BSIndie.Services;
 
-namespace HertfordshireMercury.ViewModels
+namespace BSIndie.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using HertfordshireMercury.Models;
-using HertfordshireMercury.Views;
-using HertfordshireMercury.ViewModels;
+using BSIndie.Models;
+using BSIndie.Views;
+using BSIndie.ViewModels;
 
-namespace HertfordshireMercury.Views
+namespace BSIndie.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemsPage : ContentPage

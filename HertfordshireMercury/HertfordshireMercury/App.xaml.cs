@@ -1,9 +1,9 @@
 ﻿using System;
 
-using HertfordshireMercury.Views;
+using BSIndie.Views;
 using Xamarin.Forms;
 
-namespace HertfordshireMercury
+namespace BSIndie
 {
 	public partial class App : Application
 	{

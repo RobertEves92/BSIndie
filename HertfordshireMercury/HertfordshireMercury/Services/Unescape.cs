@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace HertfordshireMercury.Services
+namespace BSIndie.Services
 {
     public static class Unescape
     {

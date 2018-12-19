@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace HertfordshireMercury.Services
+namespace BSIndie.Services
 {
     public static class NetServices
     {

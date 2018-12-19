@@ -1,8 +1,8 @@
 ﻿using System;
 
-using HertfordshireMercury.Models;
+using BSIndie.Models;
 
-namespace HertfordshireMercury.ViewModels
+namespace BSIndie.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {

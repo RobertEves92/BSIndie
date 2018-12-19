@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace HertfordshireMercury.Services
+namespace BSIndie.Services
 {
     public interface IDataStore<T>
     {

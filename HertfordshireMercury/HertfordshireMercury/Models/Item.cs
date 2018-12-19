@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using HertfordshireMercury.Services;
+using BSIndie.Services;
 using HtmlAgilityPack;
 
-namespace HertfordshireMercury.Models
+namespace BSIndie.Models
 {
     public class Item : CodeHollow.FeedReader.FeedItem
     {

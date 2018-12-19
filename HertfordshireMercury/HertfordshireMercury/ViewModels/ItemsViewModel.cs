@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using HertfordshireMercury.Models;
-using HertfordshireMercury.Views;
+using BSIndie.Models;
+using BSIndie.Views;
 
-namespace HertfordshireMercury.ViewModels
+namespace BSIndie.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {

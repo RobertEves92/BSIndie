@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace HertfordshireMercury.Services
+namespace BSIndie.Services
 {
     public static class Regexes
     {
