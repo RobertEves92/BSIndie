@@ -89,6 +89,8 @@ namespace BSIndie.Models
                 }
 
                 doc.LoadHtml(articleBodyNode.InnerHtml);
+
+                /*
                 List<HtmlNode> nodesToRemove = new List<HtmlNode>();
                 foreach (HtmlNode node in doc.DocumentNode.Descendants())
                 {
@@ -110,7 +112,7 @@ namespace BSIndie.Models
                         System.Diagnostics.Debug.WriteLine(e.ToString());
 #endif
                     }
-                }
+                }*/
 
                 articleText = doc.DocumentNode.InnerHtml;
 
