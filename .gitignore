@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 HertfordshireMercury/HertfordshireMercury.Android/bin/
 HertfordshireMercury/HertfordshireMercury.Android/obj/
 HertfordshireMercury/HertfordshireMercury.iOS/obj/
 .vs/
+=======
+.vs/
+HertfordshireMercury/HertfordshireMercury.Android/obj/
+HertfordshireMercury/HertfordshireMercury.Android/bin/
+HertfordshireMercury/HertfordshireMercury.iOS/obj/
+>>>>>>> feature/port_hm3

@@ -1,0 +1,58 @@
+﻿using System;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+using BSIndie.Models;
+using BSIndie.ViewModels;
+
+using Plugin.Share;
+
+namespace BSIndie.Views
+{
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class ItemDetailPage : ContentPage
+	{
+        ItemDetailViewModel viewModel;
+
+        public ItemDetailPage(ItemDetailViewModel viewModel)
+        {
+            InitializeComponent();
+
+            BindingContext = this.viewModel = viewModel;
+        }
+
+        public ItemDetailPage()
+        {
+            InitializeComponent();
+
+            var item = new Item
+            {
+                Title = "Item 1",
+                Description = "This is an item description.",
+                PublishingDate = DateTime.Now,
+                Author="A Person",
+                Link="http://google.co.uk"
+            };
+
+            viewModel = new ItemDetailViewModel(item);
+            BindingContext = viewModel;
+        }
+
+        private void ReadMore_Clicked(object sender, EventArgs e)
+        {
+            if (CrossShare.IsSupported)
+                CrossShare.Current.OpenBrowser(viewModel.Item.Link);
+            else
+                Device.OpenUri(new Uri(viewModel.Item.Link));
+        }
+
+        private void Share_Clicked(object sender,EventArgs e)
+        {
+            if (CrossShare.IsSupported)
+                CrossShare.Current.Share(new Plugin.Share.Abstractions.ShareMessage { Title = viewModel.Item.Title, Text = viewModel.Item.Description, Url = viewModel.Item.Link });
+            else
+                throw new Exception("CrossShare not supported");
+        }
+    }
+}
