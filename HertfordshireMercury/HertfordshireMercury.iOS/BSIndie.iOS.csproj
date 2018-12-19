@@ -121,9 +121,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CodeHollow.FeedReader">
-      <Version>1.1.1</Version>
+      <Version>1.1.5</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+    <PackageReference Include="Plugin.Share">
+      <Version>7.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tab_about.png" />
