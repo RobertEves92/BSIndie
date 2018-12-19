@@ -10,7 +10,9 @@ namespace BSIndie.Models
     {
         public string WrittenBy => "Written By: " + Author;
         public string Published => "Published: " + PublishingDate.ToString();
-        public string ArticleCatagories => "Catagories: " + KeyWords;
+
+        //removed redundent method - not used by indie
+        /*public string ArticleCatagories => "Catagories: " + KeyWords;
         public string KeyWords
         {
             get
@@ -52,7 +54,7 @@ namespace BSIndie.Models
                     Categories.Add("Uncatagorised");
                 }
             }
-        }
+        }*/
 
         public string ArticleText
         {

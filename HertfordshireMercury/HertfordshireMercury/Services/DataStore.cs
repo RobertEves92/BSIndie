@@ -61,12 +61,15 @@ namespace BSIndie.Services
             {
                 items.Add(new Item { Id = Guid.NewGuid().ToString(), Title = item.Title, Description = item.Description, PublishingDate = (DateTime)item.PublishingDate, Author = item.Author, Link = item.Link});
             }
+
+            //removed as not utlised by indie
+            /*
             //add keywords after loading items
             var keywords = Regexes.Keywords.Matches(feedSrc);
             for (int i = 0; i < keywords.Count; i++)
             {
                 items[i].KeyWords = keywords[i].Value;
-            }
+            }*/
 
             return await Task.FromResult(items);
         }
