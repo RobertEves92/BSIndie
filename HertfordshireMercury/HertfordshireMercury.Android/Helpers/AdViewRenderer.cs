@@ -16,10 +16,10 @@ using BSIndie.Droid.Helpers;
 using Android.Gms.Ads;
 using BSIndie.Controls;
 
-[assembly: ExportRenderer(typeof(BSIndie.Controls.AdControlView),typeof(AdViewRenderer))]
+[assembly: ExportRenderer(typeof(AdControlView),typeof(AdViewRenderer))]
 namespace BSIndie.Droid.Helpers
 {
-    public class AdViewRenderer : ViewRenderer<Controls.AdControlView,AdView>
+    public class AdViewRenderer : ViewRenderer<AdControlView, AdView>
     {
         string adUnitId = "ca-app-pub-4100821384102775/4875074505";
         AdSize adSize = AdSize.SmartBanner;
@@ -38,7 +38,7 @@ namespace BSIndie.Droid.Helpers
 
             adView.LayoutParameters = adParams;
 
-            adView.LoadAd(new AdRequest.Builder().AddTestDevice("D3A2A49D2D34B8178EDEA1914E77689B").Build());
+            adView.LoadAd(new AdRequest.Builder().AddTestDevice("71B0E205F1A8C89DDE4B6DC6141AACBB").Build());
 
             return adView;
         }
