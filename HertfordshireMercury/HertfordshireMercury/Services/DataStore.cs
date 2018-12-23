@@ -51,11 +51,7 @@ namespace BSIndie.Services
 
         public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
         {
-            string feedUrl = "https://www.bishopsstortfordindependent.co.uk/_api/rss/bishops_stortford_news_feed.xml";
-            string feedSrc = NetServices.GetWebpageFromUrl(feedUrl);
-            feedSrc = Unescape.UnescapeHtml(feedSrc);
-
-            var feed = FeedReader.ReadFromString(feedSrc);
+            Feed feed = await FeedReader.ReadAsync("https://www.bishopsstortfordindependent.co.uk/_api/rss/bishops_stortford_news_feed.xml");
 
             foreach (var item in feed.Items)
             {
