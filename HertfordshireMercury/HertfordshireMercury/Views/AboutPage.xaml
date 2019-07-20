@@ -27,7 +27,7 @@
                             <FormattedString.Spans>
                                 <Span Text="Stortford Independent" FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
-                                <Span Text="v1.0.0" ForegroundColor="{StaticResource LightTextColor}" />
+                                <Span Text="v1.1.0" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
