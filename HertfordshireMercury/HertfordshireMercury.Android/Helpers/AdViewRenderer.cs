@@ -38,7 +38,7 @@ namespace BSIndie.Droid.Helpers
 
             adView.LayoutParameters = adParams;
 
-            adView.LoadAd(new AdRequest.Builder().Build());
+            adView.LoadAd(new AdRequest.Builder().AddTestDevice("71B0E205F1A8C89DDE4B6DC6141AACBB").Build());
 
             return adView;
         }
